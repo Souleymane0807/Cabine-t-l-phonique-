@@ -1,0 +1,6 @@
+{
+  "name": "CabinePay - Gestion Mobile Money",
+  "description": "Application de gestion pour cabines de transfert d'argent (Orange, MTN, Moov) avec un mois d'essai gratuit offert.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
