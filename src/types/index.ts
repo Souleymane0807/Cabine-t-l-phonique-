@@ -85,3 +85,12 @@ export interface NotificationItem {
   read: boolean;
   type: 'trial' | 'transaction' | 'system' | 'commission';
 }
+
+export interface SubscriptionState {
+  isSubscribed: boolean;
+  trialDaysLeft: number;
+  monthlyPrice: number; // 10000 FCFA
+  operator?: Operator;
+  expiryDate?: string;
+  paidAt?: string;
+}
